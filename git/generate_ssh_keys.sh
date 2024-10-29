@@ -19,7 +19,11 @@ ssh-add ~/.ssh/id_rsa_anhtpc98
 
 # Create the SSH config file
 {
-  echo "# GitHub configurations"
+  echo "Host github.com"
+  echo "    HostName github.com"
+  echo "    User git"
+  echo "    IdentityFile ~/.ssh/id_rsa_phucanh1939"
+  echo
   echo "Host phucanh1939.github.com"
   echo "    HostName github.com"
   echo "    User git"
