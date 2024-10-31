@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# config git
-git config --global user.email "phucanh1939@gmail.com"
-git config --global user.name "phucanh"
-
 # Gen SSH key for personal git, save at ~/.ssh/id_rsa_phucanh1939
 ssh-keygen -t rsa -b 4096 -C "phucanh1939@gmail.com" -f ~/.ssh/id_rsa_phucanh1939 -N ""
 
